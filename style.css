@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family: sans-serif, Joan;
     font-size: 1.1vw;
 }
@@ -96,6 +96,36 @@ nav ul li a:hover {
 .search-button:hover {
     background-image: url('images/Search-button-hover.png');
 }
+
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2vw;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.about-me-image {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-bottom: 1.2vw;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about-me-text {
+    text-align: justify;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
 
 footer {
     background-color: #575757;
