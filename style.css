@@ -96,3 +96,60 @@ nav ul li a:hover {
 .search-button:hover {
     background-image: url('images/Search-button-hover.png');
 }
+
+footer {
+    background-color: #575757;
+    color: whitesmoke;
+    padding: 0.6vw 1.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1vw;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-height: 10px;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.copyright-info {
+    flex: 1;
+    text-align: center;
+    margin-right: 1vw;
+}
+
+.social-media {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center the social media icons */
+    align-items: center;
+    gap: 1vw;
+    margin-left: 1vw;
+}
+
+.social-media a {
+    display: contents;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+.download-cv {
+    flex: 1;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+.download-cv a {
+    color: #818cf8;
+    text-decoration: underline;
+}
+
+
+.social-media a img {
+    height: 2vw;
+    width: 2vw;
+}
