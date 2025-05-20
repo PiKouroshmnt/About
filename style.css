@@ -155,7 +155,7 @@ footer {
 .social-media {
     flex: 1;
     display: flex;
-    justify-content: center; /* Center the social media icons */
+    justify-content: center;
     align-items: center;
     gap: 1vw;
     margin-left: 1vw;
