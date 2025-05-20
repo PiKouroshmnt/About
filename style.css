@@ -129,8 +129,8 @@ nav ul li a:hover {
 
 
 footer {
-    background-color: #575757;
-    color: whitesmoke;
+    background-color: #545454;
+    color: white;
     padding: 0.6vw 1.2vw;
     display: flex;
     justify-content: space-between;
@@ -144,6 +144,10 @@ footer {
     min-height: 10px;
     flex-wrap: wrap;
     gap: 1vw;
+}
+
+footer a:link{
+    color: #d7feff;
 }
 
 .copyright-info {
